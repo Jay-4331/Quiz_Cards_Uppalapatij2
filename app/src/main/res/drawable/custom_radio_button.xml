@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/radio_button_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" /> <!-- Background color -->
+            <corners android:radius="8dp" /> <!-- Adjust the corner radius as needed -->
+        </shape>
+    </item>
+    <!-- Shadow -->
+    <item android:right="2dp" android:top="2dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#33000000" /> <!-- Shadow color -->
+            <corners android:radius="8dp" /> <!-- Adjust the corner radius to match the background -->
+        </shape>
+    </item>
+</layer-list>
+
